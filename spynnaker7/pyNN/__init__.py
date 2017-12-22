@@ -25,6 +25,8 @@ from spynnaker.pyNN.models.neuron.builds.izk_curr_exp_base \
     import IzkCurrExpBase as IZK_curr_exp
 from spynnaker.pyNN.models.neuron.builds.if_curr_exp_supervision \
      import IFCurrExpSupervision as IF_curr_exp_supervision
+from spynnaker.pyNN.models.neuron.builds.if_curr_exp_enabler \
+     import IFCurrExpEnabler as IF_curr_exp_enabler
 from spynnaker.pyNN.models.neuron.builds.if_curr_exp_target \
      import IFCurrExpTarget as IF_curr_exp_target
 from spynnaker.pyNN.models.neuron.synapse_dynamics.pynn_synapse_dynamics \
