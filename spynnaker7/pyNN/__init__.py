@@ -19,6 +19,8 @@ from spynnaker.pyNN.models.neuron.builds.if_cond_exp_base \
     import IFCondExpBase as IF_cond_exp
 from spynnaker.pyNN.models.neuron.builds.if_curr_exp_base \
     import IFCurrExpBase as IF_curr_exp
+from spynnaker.pyNN.models.neuron.builds.if_curr_exp_enabler \
+    import IFCurrExpEnabler as IF_curr_enabler
 from spynnaker.pyNN.models.neuron.builds.izk_cond_exp_base \
     import IzkCondExpBase as IZK_cond_exp
 from spynnaker.pyNN.models.neuron.builds.izk_curr_exp_base \
@@ -29,6 +31,8 @@ from spynnaker.pyNN.models.neuron.builds.if_curr_exp_enabler \
      import IFCurrExpEnabler as IF_curr_exp_enabler
 from spynnaker.pyNN.models.neuron.builds.if_curr_exp_target \
      import IFCurrExpTarget as IF_curr_exp_target
+from spynnaker.pyNN.models.neuron.builds.if_curr_exp_supervision_adaptive \
+     import IFCurrExpSupervisionAdaptive as IF_curr_exp_supervision_adaptive
 from spynnaker.pyNN.models.neuron.synapse_dynamics.pynn_synapse_dynamics \
     import PyNNSynapseDynamics as SynapseDynamics
 from spynnaker.pyNN.models.neuron.synapse_dynamics.synapse_dynamics_stdp \
@@ -66,6 +70,8 @@ from spynnaker7.pyNN.models.connectors.one_to_one_connector \
     import OneToOneConnector
 from spynnaker7.pyNN.models.connectors.kernel_connector \
     import KernelConnector
+from spynnaker7.pyNN.models.connectors.cortical_connector \
+    import CorticalConnector
 from spynnaker7.pyNN.models.connectors.mapping_connector \
     import MappingConnector
 from spynnaker7.pyNN.models.plasticity_components.timing_dependence \
